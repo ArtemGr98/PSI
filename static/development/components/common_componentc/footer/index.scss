@@ -1,0 +1,114 @@
+.footer {
+    margin-top: 70px;
+
+    &_form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        background: #CE0F18;
+        padding: 40px 0;
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #F2F2F2;
+            margin-bottom: 10px;
+        }
+
+        &_input {
+            border: 1px solid #FFFFFF;
+            height: 60px;
+            width: 300px;
+            padding: 10px 15px;
+
+            input {
+                background: #CE0F18;
+                border: none;
+                width: 100%;
+                height: 100%;
+                color: #F2F2F2;
+
+                &::placeholder {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    display: flex;
+                    align-items: center;
+                    color: #F2F2F2;
+                }
+            }
+        }
+    }
+
+    &_top {
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &_sections {
+            span {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+                margin-right: 40px;
+                cursor: pointer;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &_email {
+            a {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;
+
+                color: #FFFFFF;
+
+                img {
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 70px;
+        width: 60%;
+
+        &_container {
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            margin-top: 70px;
+        }
+
+        &_privacy {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #F2F2F2;
+        }
+    }
+}
+
+input[type="submit"] {
+    border: none;
+}

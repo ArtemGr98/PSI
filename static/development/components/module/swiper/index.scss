@@ -1,0 +1,13 @@
+.swiper-pagination {
+    .swiper-pagination-bullet::after {
+        background-color: #403F3F;
+        border: none;
+        width: 7px;
+        height: 7px;
+    }
+    .swiper-pagination-bullet-active::after {
+        background: #FFFFFF;
+        width: 10px;
+        height: 10px;
+    }
+}

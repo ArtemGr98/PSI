@@ -1,0 +1,46 @@
+.section {
+    &_top {
+        display: flex;
+    }
+    &_title {
+        width: 40%;
+        padding: 10% 10% 10% 10%;
+    
+        &__1 {
+            font-weight: 800;
+            font-size: 13.4804px;
+            line-height: 17px;
+            letter-spacing: 4.49348px;
+            text-transform: uppercase;
+            color: #CE0F18;
+    
+            margin-bottom: 20px;
+        }
+    
+        &__2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 92px;
+            color: #FFFFFF;
+    
+            margin-bottom: 20px;
+        }
+    
+        &__3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 130%;
+            color: #FFFFFF;
+        }
+    }
+    &_img {
+        width: 60%;
+        height: auto;
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+}
